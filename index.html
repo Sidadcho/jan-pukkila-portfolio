@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan Pukkila</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="media/piano-svgrepo-com.svg">
+
+</head>
+
+<body>
+    <header>
+        <img class="logo-img" src="media/Group 23.png" alt="">
+
+        <button class="mobile-nav-toggle" aria-expanded="false"></button>
+
+        <nav>
+            <ul data-visible="false" class="navigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <button class="background-play visable hide" onclick="audio.play()">
+        <img class="img-in-button" src="media/white-g-clef.svg" alt="">
+    </button>
+    <button class="background-pause hidden hide" onclick="audio.pause()">
+        <img class="img-in-button" src="media/g-clef-symbol-svgrepo-com.svg" alt="">
+    </button>
+
+
+    <section class="section-one" id="home">
+        <img class="background-page" src="media/background-page-one.jpg" alt="background">
+
+        <div class="first-page-elements">
+        <div class="introduction hide">
+            <p class="title hide">Jan Pukkila</p>
+            <p class="description ">Welcome to my musical realm, where melodies come to life and emotions find their
+                voice.</p>
+        </div>
+        <a class="contact-me btn hide-more " href="#contact">Contact me</a>
+    </div>
+    </section>
+
+    <section class="section-two" id="work">
+        <img class="background-page" src="media/background-page-two.jpg" alt="background">
+
+        <div class="work-title hide">
+
+            <div class="for-border">
+                <img src="media/gold-g-clef.svg" alt="">
+                <p>Some of my work</p>
+                <img src="media/gold-g-clef.svg" alt="">
+            </div>
+
+        </div>
+
+        <div class="work-card hide">
+            <div class="card1 cards">
+                <img class="card-img" src="media/spiderman.png" alt="">
+                <p>Spider-man: across the spider-verse-"calling" ORCHESTRAL</p>
+            </div>
+            <div class="card2 cards">
+                <img class="card-img" src="media/hopless-dawn.png" alt="">
+                <p>Hopless dawn ORCHESTRAL</p>
+            </div>
+
+            <div class="card3 cards">
+                <img class="card-img" src="media/arcane.png" alt="">
+                <p>Arcane - Dear friend across the river ORCHESTRAL</p>
+            </div>
+
+        </div>
+        <div class="listen-div hide">
+            <a class="listen1 listen btn" href="https://www.youtube.com/watch?v=G1Rfv1-NEQo">Listen</a>
+
+            <a class="listen2 listen btn" href="https://www.youtube.com/watch?v=BylLYcwNNkw">Listen</a>
+
+            <a class="listen3 listen btn" href="https://www.youtube.com/watch?v=vMoEEHMK5Tw">Listen</a>
+        </div>
+        <div class="listen-all hide">
+            <a class="listen-all-btn btn" href="https://www.youtube.com/@janpukkila714">Click here for more</a>
+        </div>
+
+
+    </section>
+
+    <section class="section-three" id="about">
+        <img class="background-page" src="media/background-page-three.jpg" alt="background">
+
+        <div class="about-title hide">
+            <p>Who am I?</p>
+        </div>
+
+        <div class="about-me-divs hide">
+            <div class="about-one about">
+                <P> Greetings, music enthusiasts! I'm Jan Pukkila, a passionate pianist, composer, and musician
+                    currently
+                    pursuing my musical journey at the prestigious University of Edinburgh.Thank you for visiting my
+                    portfolio site.
+                </P>
+                <img class="about-img" src="media/gold-g-clef.svg" alt="">
+            </div>
+            <div class="about-two about">
+                <P> Music is a universal language that transcends barriers and brings people together. I'm always open
+                    to
+                    new creative opportunities, whether it's collaborating on a project or composing a custom piece for
+                    a
+                    special occasion.
+                </P>
+                <img class="about-img" src="media/gold-g-clef.svg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section-four" id="contact">
+        <img class="background-page" src="media/background-page-four.jpg" alt="background">
+
+        <div class="contact-title hide">
+            <p>Contact me here or on my socials</p>
+        </div>
+
+        <div class="email-form hide">
+            <form action="https://formsubmit.co/8e00ffd1750c6644ffdf911a9524db93" method="POST">
+                <input class="name" type="name" name="name" placeholder="Name..." required><br>
+                <input class="email" type="email" name="email" id="email" placeholder="Email..." required><br>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="New website submission!">
+                <textarea class="message" name="message" cols="30" rows="10" placeholder="Message..."
+                    required></textarea>
+                <div class="submit-socials">
+                    <input class="submit" type="submit" value="Submit">
+                    <a class="socials facebook" href="https://www.facebook.com/varjs.lehtonen">
+                        <img src="media/facebook.png" alt="">
+                    </a>
+
+                    <a class="socials instagram" href="https://www.instagram.com/pukkilaj/">
+                        <img src="media/instagram.png" alt="">
+                    </a>
+
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+    <section class="section-five hide">
+        <div class="main-stuff">
+            <img class="side-notes" src="media/gold-g-clef.svg" alt="">
+            <div class="middle-items">
+                <img class="logo" src="media/logo.png">
+                <p>Site made by-<a href="https://www.linkedin.com/in/sidad-alali-124a34249/">Sidad Alali</a></p>
+            </div>
+            <img class="side-notes" src="media/gold-g-clef.svg" alt="">
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
